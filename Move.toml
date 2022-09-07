@@ -1,0 +1,32 @@
+[package]
+name = "AptinLend"
+version = "0.0.0"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/move-stdlib"
+rev = "devnet"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-stdlib"
+rev = "devnet"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+subdir = "aptos-move/framework/aptos-framework"
+rev = "devnet"
+
+# [dependencies.Movemate]
+# git = "https://github.com/pentagonxyz/movemate.git"
+# subdir = "aptos"
+# rev = "devnet"
+
+[addresses]
+std = "0x1"
+aptos_std = "0x1"
+aptos_framework = "0x1"
+# movemate = "0x3953993C1D8DFB8BAC2DA2F4DBA6521BA3E705299760FBEE6695E38BCE712A82"
+# pontem = "0x43417434fd869edee76cca2a4d2301e528a1551b1d719b75c350c3c97d15b8b9"
+
+aptin_lend = "_"
